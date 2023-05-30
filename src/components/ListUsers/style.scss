@@ -1,0 +1,23 @@
+.user-table {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  .table-row {
+    display: flex;
+    align-items: center;
+    .table-cell {
+      min-width: 220px;
+      max-width: 220px;
+      min-height: 50px;
+      max-height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #000;
+      border-right: none;
+      &:last-child {
+        border-right: 1px solid #000;
+      }
+    }
+  }
+}

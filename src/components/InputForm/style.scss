@@ -1,0 +1,16 @@
+.email-input {
+  margin-bottom: 10px;
+}
+
+.userName-input {
+  margin-bottom: 10px;
+}
+
+.ageInput-container {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  .form-switch {
+    margin-right: 50px;
+  }
+}

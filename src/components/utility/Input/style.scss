@@ -1,0 +1,19 @@
+.input-wrapper {
+  .label {
+    display: block;
+    text-align: start;
+  }
+  .input-form {
+    display: flex;
+    align-items: center;
+    .input {
+      padding: 6px 0;
+    }
+    .error {
+      border: 1px solid red;
+    }
+  }
+  .error-message {
+    color: red;
+  }
+}
